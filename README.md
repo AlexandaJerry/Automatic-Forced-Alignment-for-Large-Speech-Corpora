@@ -2,4 +2,4 @@
 
 | Task                                     | Notebook                                                                                                                                                                                                            |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|MFA Alignment (Mandarin Pinyin) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AlexandaJerry/PPASR/PPASR-preprocessor.ipynb) |
+|Audio Slicing and ASR (Mandarin Pinyin) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AlexandaJerry/PPASR/blob/develop/PPASR-preprocessor.ipynb) |
