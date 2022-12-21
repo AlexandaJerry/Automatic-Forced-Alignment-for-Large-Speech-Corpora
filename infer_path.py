@@ -54,7 +54,7 @@ def predict_audio():
     text_file = open(args.wav_path.replace(".wav",".txt"), "w")
     text_file.write(text)
     text_file.close()
-    print(f"消耗时间：{int(round((time.time() - start) * 1000))}ms, 识别结果: {text}, 得分: {int(score)}")
+    print(f"消耗时间：{int(round((time.time() - start) * 1000))}ms, 识别结果: {text}")
 
 
 # 实时识别模拟
