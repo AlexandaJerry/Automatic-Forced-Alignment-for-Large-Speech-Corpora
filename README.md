@@ -3,6 +3,7 @@
 | Task                                     | Notebook                                                                                                                                                                                                            |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Audio Slicing and ASR with Pretrained Model (Mandarin Pinyin) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlexandaJerry/PPASR/blob/develop/ppasr_processor_mfa.ipynb) |
+|Audio Slicing and ASR with Pretrained Model pure (Mandarin Pinyin) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlexandaJerry/PPASR/blob/develop/ppasr_processor_mfa_pure.ipynb) |
 
 参考来源： 
 
