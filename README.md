@@ -9,7 +9,7 @@
 
 参考来源： 
 
-[DiffSinger/pipelines/no_midi_preparation.ipynb](https://github.com/openvpi/DiffSinger/blob/no-midi/pipelines/no_midi_preparation.ipynb)
+[DiffSinger/pipelines/no_midi_preparation.ipynb](https://github.com/openvpi/DiffSinger/blob/refactor/pipelines/no_midi_preparation.ipynb)
 
 [openvpi/audio-slicer](https://github.com/openvpi/audio-slicer)
 
