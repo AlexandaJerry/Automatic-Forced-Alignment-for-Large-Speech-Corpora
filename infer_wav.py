@@ -4,6 +4,7 @@ import time
 import wave
 import os
 import yaml
+import glob
 
 from ppasr.predict import PPASRPredictor
 from ppasr.utils.utils import add_arguments, print_arguments
@@ -33,20 +34,12 @@ predictor = PPASRPredictor(configs=configs,
                            use_pun=args.use_pun,
                            pun_model_dir=args.pun_model_dir)
 
-files = os.listdir('sliced_wav/')
+file_list = glob.glob('/content/PPASR/raw_wav/**/*.wav',recursive=True)
+file_list.sort()
 
-def file_filter(f):
-    if f[-4:] in ['.wav']:
-        return True
-    else:
-        return False
-
-files = list(filter(file_filter, files))
-files.sort()
-
-for file in files:
+for file in file_list:
     start = time.time()
-    wav_path= os.path.join('sliced_wav/', file)
+    wav_path= str(file)
     result = predictor.predict(audio_data=wav_path, use_pun=args.use_pun, is_itn=args.is_itn)
     text = result['text']
     text_file = open(wav_path.replace(".wav",".txt"), "w")
