@@ -1,5 +1,6 @@
 ### Audio Slicing and ASR and MFA Alignment- Notebook
-
+Audio Slicing and ASR with Pretrained Model pure (Mandarin Pinyin) 长音频切片和语音识别转写
+MFA Alignment with Revised Annotations (Mandarin Pinyin) 确认音频转写无误后进行MFA强制对齐
 | Task                                     | Notebook                                                                                                                                                                                                            |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Audio Slicing and ASR with Pretrained Model pure (Mandarin Pinyin) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlexandaJerry/PPASR/blob/develop/ppasr_processor_mfa_pure.ipynb) |
