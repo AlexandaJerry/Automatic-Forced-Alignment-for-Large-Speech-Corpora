@@ -1,8 +1,8 @@
 ### Audio Slicing and ASR and MFA Alignment- Notebook
 
-长音频未切片 Audio Slicing and ASR with Pretrained Model pure (Mandarin Pinyin) 音频切片→语音识别转写→MFA强制对齐
+长音频未切片 Audio Slicing and ASR with Pretrained Model pure (Mandarin Pinyin) 音频切片→语音识别→MFA强制对齐
 
-长音频已切片 MFA Alignment with Revised Annotations (Mandarin Pinyin) 语音识别转写→MFA强制对齐
+长音频已切片 MFA Alignment with Revised Annotations (Mandarin Pinyin) 语音识别→MFA强制对齐
 
 | Task                                     | Notebook                                                                                                                                                                                                            |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
